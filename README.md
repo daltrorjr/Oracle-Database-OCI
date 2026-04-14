@@ -1,6 +1,5 @@
 # Oracle-Database-OCI
 Implementação de Oracle Database em Cloud Projeto
-Projeto
 
 Implementação de ambiente de banco de dados Oracle em nuvem utilizando Oracle Cloud Infrastructure, incluindo provisionamento de infraestrutura, configuração do sistema operacional, instalação do banco e acesso remoto para administração.
 
