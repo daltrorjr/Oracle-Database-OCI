@@ -1,0 +1,18 @@
+1. Provisionamento de Infraestrutura em Nuvem
+
+Implantação de ambiente de banco de dados Oracle em nuvem utilizando a plataforma Oracle Cloud Infrastructure (OCI).
+
+Atividades executadas:
+
+Criação de Virtual Cloud Network (VCN) para segmentação de rede.
+Configuração de subnet pública para acesso administrativo.
+Definição de Security Lists e regras de firewall.
+Provisionamento de Compute Instance com sistema operacional Oracle Linux.
+Configuração de acesso seguro utilizando OpenSSH.
+
+Especificações da VM
+
+Shape:VM.Standard.E2.1.Micro
+Sistema operacional: Oracle Linux 8
+Armazenamento em Block Volume
+Autenticação via chave SSH (key-based authentication)
