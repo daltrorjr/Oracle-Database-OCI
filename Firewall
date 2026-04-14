@@ -1,0 +1,16 @@
+4. Configuração de Segurança de Rede (Firewall)
+
+Abertura de portas necessárias para comunicação externa.
+
+Portas configuradas na Security List da VCN:
+
+Porta	Protocolo	Finalidade
+22	TCP	Acesso SSH
+1521	TCP	Conexão Oracle Database
+ICMP	-	Teste de conectividade
+
+Validação com ferramentas:
+
+netstat
+ss -tulnp
+telnet
