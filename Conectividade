@@ -1,0 +1,12 @@
+6. Conectividade com Ferramenta de Administração
+
+Configuração de acesso ao banco através do cliente Oracle SQL Developer.
+
+Parâmetros de conexão
+
+Host: IP público da VM
+Porta: 1521
+Service Name: ORCL / PDB
+Usuário: SYSTEM / outros usuários administrativos
+
+Teste de conectividade realizado com sucesso.
