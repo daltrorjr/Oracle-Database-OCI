@@ -1,0 +1,9 @@
+5. Acesso Remoto Seguro via SSH
+
+Configuração de acesso administrativo via Secure Shell.
+
+Conexão realizada com:
+
+ssh opc@IP_PUBLICO
+
+Autenticação utilizando par de chaves RSA.
