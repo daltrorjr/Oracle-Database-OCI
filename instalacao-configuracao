@@ -1,0 +1,24 @@
+2. Instalação e Configuração do Oracle Database
+
+Implantação manual do banco de dados Oracle Database no ambiente Linux.
+
+Etapas executadas:
+
+Configuração de dependências do sistema operacional
+Criação de usuários e grupos Oracle
+
+groupadd oinstall
+groupadd dba
+useradd -g oinstall -G dba oracle
+
+Configuração de parâmetros do kernel (/etc/sysctl.conf)
+Ajuste de limites de sistema (/etc/security/limits.conf)
+Configuração de variáveis de ambiente Oracle
+
+ORACLE_HOME
+ORACLE_BASE
+ORACLE_SID
+PATH
+
+Instalação do software Oracle Database
+Criação de banco de dados via DBCA (Database Configuration Assistant)
