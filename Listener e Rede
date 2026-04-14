@@ -1,0 +1,20 @@
+3. Configuração de Listener e Rede
+
+Configuração do serviço Oracle Net Listener para permitir conexões remotas.
+
+Ferramentas utilizadas:
+
+Oracle Net Listener
+Oracle Net Manager
+
+Configuração da porta padrão:
+
+TCP 1521
+
+Arquivo configurado:
+
+$ORACLE_HOME/network/admin/listener.ora
+
+Validação do listener:
+
+lsnrctl status
